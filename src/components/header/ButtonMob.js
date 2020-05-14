@@ -12,23 +12,12 @@ export default class ButtonMob extends React.Component {
 		}
 	}
 
-	clickMe(){
-		if(this.state.visNav == 'flex'){
-			this.setState({
-				visNav: 'none';
-			});
-		}else{
-			this.setState({
-				visNav: 'flex';
-			})
-		}
-	}
+	
+	
 
 	render(){
 		return(
-            <div className ="buttonMob"  onClick = {this.clickMe.bind(this)}>
-				
-			</div>
+      			null;
 		);
 	}
 
